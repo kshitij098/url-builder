@@ -1,1 +1,73 @@
+h1{
+width:100%;
+font-size:40px;
+margin:auto;
+background-color: #FFFFFF;
+}
+h3{
+width:100%;
+font-size:30px;
+margin:100px;
+}
+body{
+width:100%;
+background-color: #f2f2f2;
+}
+input, select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.url{
+width:100%;
+background-color: #FFFFFF;
+padding: 14px 20px;
+}
+.copy{
+margin:20px 0;
+}
+.copy button[type=button]:hover {
+  background-color: #808080;
+}
+
+.main{
+width: 50%;
+margin: 100px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.secondary{
+width:80%;
+margin:0 auto;
+border-radius: 5px;
+background-color: #FFFFFF;
+    padding: 20px;
+}
+label:before{
+ content:"*";
+ color:red;
+}
+#press {
+  display: block;
+}
+#link {
+  width: 60%;
+}
+label {
+  width: 20%;
+  display: inline-block;
+}

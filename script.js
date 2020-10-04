@@ -6,10 +6,6 @@ var a=document.getElementById('URL').value;
 var b=document.getElementById('source').value;
 var c=document.getElementById('team').value;
 text+=a+'#src='+b+'&team='+c;
-if(pattern[a]!=".+\.com")
-{
-	alert("Hello! I am an alert box!!");
-}
 link.value=text;
 event.preventDefault();
 }

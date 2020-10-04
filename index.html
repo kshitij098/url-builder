@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URL BUILDER</title>
+</head>
+<body>
+<h1>URL BUILDER</h1>
+<h3>Enter URL and parameters</h3>
+<div class="main">
+ <form>
+  <label for="url">Original URL:</label>
+  <input type="url" id="URL" name="URL" value="" pattern=".+\.com" required><br>
+  <label for="source">Source:</label>
+  <input type="text" id="source" name="source" value="" required><br>
+  <label for="team">Team:</label>
+  <input type="email" id="team" name="team" value="" pattern="[^ @]*@[^ @]*" required>
+  <button id="press">Generate URL</button>
+  </div>
+  <div class="secondary">
+   <form>
+   
+    <h2>Generated URL</h2>
+    <input id="link" readonly>
+    <input class="copy" type="button" onclick="Copy()" value="Copy URL"/>
+
+   </form>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
 
